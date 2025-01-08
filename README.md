@@ -33,4 +33,7 @@ npm run build
 
 ---
 
+### LOGIN DETAILS:
+    UserName : admin
+    Password : 1234
 Replace `<repository_url>` with the URL of your GitHub repository.  😊
