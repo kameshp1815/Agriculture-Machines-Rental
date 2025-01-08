@@ -33,4 +33,4 @@ npm run build
 
 ---
 
-Replace `<repository_url>` with the URL of your GitHub repository. Let me know if you need further adjustments! 😊
+Replace `<repository_url>` with the URL of your GitHub repository.  😊
