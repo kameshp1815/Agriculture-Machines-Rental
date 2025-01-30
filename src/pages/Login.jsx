@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === 'admin' && password === '12345') {
+    if (username === 'admin' && password === '1234') {
       navigate('/home');
     } else {
       setError('Invalid username or password');
