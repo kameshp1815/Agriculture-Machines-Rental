@@ -16,7 +16,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Thank you, ${formData.name}! We have received your message and will get back to you shortly.`);
-    setFormData({ name: "", email: "", message: "" }); // Reset form
+    setFormData({ name: "", email: "", message: "" }); 
   };
 
   return (

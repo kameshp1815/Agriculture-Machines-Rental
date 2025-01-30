@@ -19,10 +19,6 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      
-        {/* <Link to="/login">
-        <button className="action-btn">
-          Sign In</button></Link> */}
     </nav>
   );
 };

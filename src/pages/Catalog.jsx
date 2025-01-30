@@ -4,11 +4,10 @@ import "./Catalog.css";
 import Navbar from "./Navbar";
 
 const Catalog = () => {
-  const [searchQuery, setSearchQuery] = useState(""); // State for search query
-  const [days, setDays] = useState({}); // State to track days for each machine
+  const [searchQuery, setSearchQuery] = useState(""); 
+  const [days, setDays] = useState({}); 
 
-  const navigate = useNavigate(); // Hook for navigation
-
+  const navigate = useNavigate(); 
   // Sample machine data
   const machines = [
     { id: 1, name: "Tractor", description: "High-power tractor for farming.", image: "/images/quality.jpg", dailyRent: 1000 },

@@ -1,6 +1,6 @@
 import "./Features.css";
 import Navbar from "./Navbar";
-// import { Link } from "react-router-dom";
+
 
 const Features = () => {
   return (

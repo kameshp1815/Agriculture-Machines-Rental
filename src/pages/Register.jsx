@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';
 import './Register.css'; 
 
 const Register = () => {
@@ -16,10 +16,10 @@ const Register = () => {
       return;
     }
 
-    // Save user details (you can replace this with an API call)
+
     console.log('Registered:', { username, password });
     alert('Registration Successful! Redirecting to Login.');
-    navigate('/'); // Redirect to login page after registration
+    navigate('/');/
   };
 
   return (
