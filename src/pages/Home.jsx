@@ -15,7 +15,7 @@ const Home = () => (
       <p className="fade-in"><b>Your one-stop solution for renting agricultural machines.</b></p>
       <p className="fade-in"><b>We offer a wide range of machines to meet your farming needs, 
         from tractors to harvesters, all available at affordable prices. Rent with ease, 
-        and get the job done faster!</b></p>
+        and get the job done faster!</b></p><br></br>
       <a href="/catalog" className="btn hover-effect fade-in">Explore Machines</a>
     </div>
     <br></br>

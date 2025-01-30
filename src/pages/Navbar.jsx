@@ -20,9 +20,9 @@ const Navbar = () => {
         </li>
       </ul>
       
-        <Link to="/login">
+        {/* <Link to="/login">
         <button className="action-btn">
-          Sign In</button></Link>
+          Sign In</button></Link> */}
     </nav>
   );
 };
