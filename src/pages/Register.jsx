@@ -19,7 +19,7 @@ const Register = () => {
 
     console.log('Registered:', { username, password });
     alert('Registration Successful! Redirecting to Login.');
-    navigate('/');/
+    navigate('/');
   };
 
   return (
