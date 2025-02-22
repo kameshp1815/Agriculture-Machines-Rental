@@ -22,7 +22,7 @@ const Booking = () => {
     alert(
       `Booking confirmed for ${userDetails.name}!\nMachine: ${machine.name}\nTotal Amount: Rs ${totalAmount}`
     );
-     navigate("/Catalog"); 
+     navigate("/catalog"); 
   };
 
   useEffect(() => {
